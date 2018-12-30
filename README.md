@@ -14,7 +14,7 @@
 <p>It can be done by:
 <code>pip install module_name</code> or <code>sudo pip install module_name</code>
 
-<p>Change line 109 to the path where the images required to be processed are stored.
+<p>Change line 108 to the path where the images required to be processed are stored.
 
 <p>The python code must be in the same directory as the images for the program to run.
 The given Java code should be cloned and run via an IDE.
