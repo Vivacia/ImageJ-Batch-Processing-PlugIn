@@ -12,16 +12,18 @@
 		<relativePath />
 	</parent>
 
+	<groupId>com.mycompany</groupId>
 	<artifactId>Batch_PlugIn</artifactId>
 	<version>1</version>
 
-	<name>BatchPlugIn</name>
+	<name>Batch Processing of Images</name>
 	<description>A Maven project implementing an ImageJ 1.x plugin.</description>
 
 	<developers>
 		<developer>
 			<id>mbudati3</id>
 			<name>Meghavarnika Budati</name>
+			<url>http://imagej.net/User:Rueden</url>
 			<roles>
 				<role>developer</role>
 				<role>debugger</role>
@@ -33,7 +35,10 @@
 	</developers>
 
 	<properties>
-		<main-class>Batch_PlugIn</main-class>
+		<package-name>com.mycompany.imagej</package-name>
+		<main-class>com.mycompany.imagej.Batch_PlugIn</main-class>
+		<license.licenseName>bsd_2</license.licenseName>
+		<license.copyrightOwners>My Company, Inc.</license.copyrightOwners>
 	</properties>
 
 	<dependencies>

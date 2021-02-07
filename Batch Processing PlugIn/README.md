@@ -1,7 +1,7 @@
 <p>This is a program to run ImageJ with some added automated functions for batch processing of images. Operations that can be performed are:
 
 <ol>
-<li>Changing the brightness/contrast
+<li>Changing the brightness/contrast //still working on this
 <li>Performing log 10 on the images
 <li>Turning images into 8-bit greyscale images
 <li>Cropping: 
